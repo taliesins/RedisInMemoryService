@@ -1,0 +1,22 @@
+{
+    "Port": "6379",
+    "Timeout" : "0",
+    "TcpKeepAlive" : "0",
+	"LogLevel" : "notice",
+	"LogFile" : "./../Logs/redisInMemory.log",
+	"DatabaseFileName" : "dump.rdb",
+	"DatabaseFileDirectory" : "./../RedisInMemoryDatabase/",
+	"MaxHeap" : "256mb",
+	"PersistanceAvailable" : "yes",
+	"MaxMemory" : "256mb",
+	"MaxMemoryPolicy" : "volatile-lru",
+	"AppendOnly" : "no",
+	"AppendFsync" : "everysec",
+	"NoAppendFsyncOnRewrite" : "no",
+	"AofRewriteIncrementalFsync" : "yes",
+	"AutoAofRewritePercentage" : "100",
+	"AutoAofRewriteMinSize":"64mb",
+	"Hz" : "10",
+	"RedisHost" : "localhost",
+	"RedisInMemoryPort" : "6379"
+}
